@@ -6,7 +6,7 @@ function Userfilter(users: user[]) {
 
   let max = users[0].age;
 
-  for (let i = 1; i < users.length; i++) { // Start from index 1
+  for (let i = 1; i < users.length; i++) { 
       if (users[i].age > max) {
           max = users[i].age;
       }
